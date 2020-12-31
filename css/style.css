@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Cinzel&display=swap');
+
+body {
+  font-family: 'Cinzel', sans-serif;
+  font-size: 15px;
+  line-height: 1.8em;
+  color: #3d3d50;
+  background: url("../img/pattern-bg.png") fixed;
+}
+
+.header {
+  margin: 0;
+  position: relative;
+}
+
+.btn {
+  margin-bottom: 0;
+  font-size: 14px;
+  border-radius: 0;
+  border: 0;
+  text-transform: uppercase;
+}
+
+.btn-lg {
+  font-size: 24px;
+}
+
+.btn-primary {
+  background-color: #FFC107;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active:focus {
+  background: #ff9800;
+}
+
+.text-secondary {
+  display: none;
+}
